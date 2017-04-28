@@ -3,37 +3,26 @@ body
   background-color: #80aaff;
 }
 
+div
+{
+    border-radius: 5px;
+}
 h1
 {
   color: black;
   margin: 22px;
   text-align:center
 }
-
+table
+{
+	border : 1px
+		dashed black;
+}
+	
 td
 {
     padding: 2px;
     border: 1px solid #E88741;
     }
-div
-{
-    border-radius: 5px;
-    }
-#header
-{
-    position: fixed;
-    z-index: 1;
-    height:40px;
-    width: 98%;
-    background-color: #668284;
-    margin-bottom: 10px
-    }
 
-#name {
-    float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-}
+
