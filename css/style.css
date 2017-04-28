@@ -9,3 +9,12 @@ h1
   margin: 22px;
   text-align:center
 }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
