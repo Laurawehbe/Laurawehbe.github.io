@@ -11,7 +11,11 @@ h1
 {
   color: black;
   margin: 22px;
-  text-align:center
+  text-align:center 
+}
+h3
+{
+    text-decoration: underline;
 }
 table
 {
