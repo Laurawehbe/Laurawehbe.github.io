@@ -73,15 +73,20 @@
           
 </div> 
 	
-    
+    <script>
+    $(function() {
+       
+            $.getJSON('essai.json', function(donnees) {
+            $('#r').html('<p><b>hash</b> : ' + donnees.hash + '</p>');
+            $('#r').append('<p><b>time</b> : ' + donnees.time + '</p>');
+            $('#r').append('<p><b>height</b> : ' + donnees.height + '</p>');
+            
+            });
+        });
+    });
+</script>
 
-	<div class="row">
-	<div class="col-lg-12 col-xs-6">
-    	<pre>
-        	<code id="demo" class="json kljs"></code>
-    	</pre>
-	</div>
-</div>
+	
 	
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
