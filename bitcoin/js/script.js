@@ -1,5 +1,4 @@
-div 
-{
+
 
     var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
@@ -11,4 +10,4 @@ xmlhttp.onreadystatechange = function() {
 };
 xmlhttp.open("GET", "https://blockchain.info/fr/rawblock/$block_index", true);
 xmlhttp.send();
-}
+
